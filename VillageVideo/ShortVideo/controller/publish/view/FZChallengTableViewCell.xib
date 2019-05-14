@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="127" id="KGk-i7-Jjw" customClass="FZChallengTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="127"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="126.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#散步舞" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQg-1E-EVV">
+                        <rect key="frame" x="25" y="15" width="280" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="IgC-vo-CQu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="接口上不上班GFUIweb度搜撒啊发放把水不发货深V返回" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="83C-Ii-1SA">
+                        <rect key="frame" x="39" y="43" width="266" height="53.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.39215686274509803" green="0.39215686274509803" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10000人挑战" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TLB-xc-nkr">
+                        <rect key="frame" x="39" y="102" width="67" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.59215686274509804" green="0.59215686274509804" blue="0.59215686274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4mD-ac-bha" userLabel="line">
+                        <rect key="frame" x="10" y="126.5" width="300" height="0.5"/>
+                        <color key="backgroundColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="cJR-bc-F0O"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="xQg-1E-EVV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="25" id="4L5-J5-0ip"/>
+                    <constraint firstItem="4mD-ac-bha" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="4aF-EU-NIT"/>
+                    <constraint firstAttribute="trailing" secondItem="xQg-1E-EVV" secondAttribute="trailing" constant="15" id="AHs-zq-F0O"/>
+                    <constraint firstItem="xQg-1E-EVV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="E8w-7I-80t"/>
+                    <constraint firstItem="83C-Ii-1SA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="39" id="IB9-t3-QJc"/>
+                    <constraint firstItem="4mD-ac-bha" firstAttribute="top" secondItem="TLB-xc-nkr" secondAttribute="bottom" constant="11" id="SdE-b8-hJn"/>
+                    <constraint firstAttribute="bottom" secondItem="83C-Ii-1SA" secondAttribute="bottom" constant="30" id="fUH-jU-rLA"/>
+                    <constraint firstItem="83C-Ii-1SA" firstAttribute="top" secondItem="xQg-1E-EVV" secondAttribute="bottom" constant="8" id="mz3-cG-FYu"/>
+                    <constraint firstAttribute="trailing" secondItem="83C-Ii-1SA" secondAttribute="trailing" constant="15" id="nuT-Q1-srV"/>
+                    <constraint firstAttribute="bottom" secondItem="4mD-ac-bha" secondAttribute="bottom" id="tJA-Ou-JsN"/>
+                    <constraint firstAttribute="trailing" secondItem="4mD-ac-bha" secondAttribute="trailing" constant="10" id="uDE-Ib-9gW"/>
+                    <constraint firstItem="TLB-xc-nkr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="39" id="wBf-2E-SC8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="content" destination="83C-Ii-1SA" id="7DD-ak-a80"/>
+                <outlet property="numberPerson" destination="TLB-xc-nkr" id="AzG-ov-qOM"/>
+                <outlet property="title" destination="xQg-1E-EVV" id="Yvn-NR-qgp"/>
+            </connections>
+            <point key="canvasLocation" x="35" y="102.5"/>
+        </tableViewCell>
+    </objects>
+</document>
