@@ -1,0 +1,66 @@
+showSetting: function(){
+    document.location=\"myweb: showSettingClick\"
+},
+showLoading: function(){
+    document.location=\"myweb: showLoadingClick\"
+},
+callHandler: function(url){
+    document.location=\"myweb: callHandler: \"+url
+},
+showLoading: function(isload){
+    document.location=\"myweb: showLoading2Click: \"+isload
+},
+dismissLoading: function(){
+    document.location=\"myweb: dismissLoadingClick\"
+},
+showImage: function(url){
+    document.location=\"myweb: imageClick: \"+url
+},
+playAudio: function(url){
+    document.location=\"myweb: voiceClick: \"+url
+},
+setShareAble: function(shareAble){
+    document.location=\"myweb: shareAbleClick: \"+shareAble
+},
+finish: function(){
+    document.location=\"myweb: finishClick\"
+},
+finishForRefresh: function(){
+    document.location=\"myweb: finishForRefreshClick\"
+},
+finishForExecute: function(cmd){
+    document.location=\"myweb: finishForExecuteClick: \"+cmd
+},
+finishForNewPage: function(url){
+    document.location=\"myweb: finishForNewPageClick: \"+url
+},
+setRefreshAble: function(shareAble){
+    document.location=\"myweb: setRefreshAbleClick: \"+shareAble
+},
+showPdf: function(url){
+    document.location=\"myweb: showPdfClick: \"+url
+},
+playVideo: function(url){
+    document.location=\"myweb: playVideoClick: \"+url
+},
+playVideoJSON: function(url){
+    document.location=\"myweb: playVideoJSONClick: \"+url
+},
+playVideoM: function(url){
+    document.location=\"myweb: playVideoMClick: \"+url
+},
+showMessage: function(error){
+    document.location=\"myweb: showMessageClick: \"+error
+},
+addSubjectWeikeMaterialInput: function(subjectId){
+    document.location=\"myweb: addSubjectWeikeMaterialInputClick: \"+subjectId
+},
+showSubjectWeikeMaterials: function(subjectId){
+    document.location=\"myweb: showSubjectWeikeMaterialsClick: \"+subjectId
+},
+teacherJoinClass: function(vid){
+    document.location=\"myweb: teacherJoinClassClick: \"+vid
+},
+findOrChangePass: function(account, machine, uType, action){
+    document.location=\"myweb: findOrChangePass: \"+account+\",\"+machine+\",\"+uType+\",\"+action
+}
